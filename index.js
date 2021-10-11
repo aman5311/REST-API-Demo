@@ -73,4 +73,4 @@ function validateCourse(course){
 
 //port on which our server runs
 const port = process.env.PORT || 3000 ;
-app.listen(port, () => console.log(`listening at port ${port}...`));
+app.listen(port, () => console.log(`Listening at port ${port}...`));
